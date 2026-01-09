@@ -1,0 +1,17 @@
+.card {
+  background-color: blue;
+  padding: 100px 5px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 300px 300px 300px;
+}
